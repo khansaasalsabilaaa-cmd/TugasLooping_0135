@@ -69,6 +69,24 @@ void tampilkanMenu() {
 int main() {
     while (true) {
         tampilkanMenu();
-        
+
+        switch (pilihan) {
+            case 1:
+                inputAngka();
+                tampilkanPrima();
+                break;
+            case 2:
+                inputAngka();
+                tampilkanFibonacci();
+                break;
+            case 0:
+                cout << "Keluar dari program. Terima kasih!" << endl;
+                return 0; 
+            default:
+                cout << "Pilihan tidak valid! Silahkan masukkan 0, 1, atau 2." << endl;
+                break;
+        }
     }
+
+    
 }
