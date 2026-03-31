@@ -49,5 +49,8 @@ void tampilkanPrima() {
 
 // Prosedur untuk menampilkan hasil pengecekan Fibonacci
 void tampilkanFibonacci() {
-    
+    if (isFibonacci(angka)) {
+        cout << "Hasil: " << angka << "termasuk dalam deret FIBONACCI." << endl;
+        
+    }
 }
