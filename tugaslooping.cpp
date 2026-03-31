@@ -55,3 +55,13 @@ void tampilkanFibonacci() {
         cout << "Hasil: " << angka << "TIDAK termasuk dalam deret fibonacci." << endl;
     }
 }
+
+// Function menu untuk menampilkan pilihan kepada pengguna
+void tampilkanMenu() {
+    cout << "\n========== MENU UTAMA ==========" << endl;
+    cout << "1. Cek Bilangan Prima" << endl;
+    cout << "2. Cek Bilangan Fibonacci" << endl;
+    cout << "0. Keluar" << endl;
+    cout << "Pilih menu (0-2): ";
+    cin >> pilihan;
+}
