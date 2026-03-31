@@ -46,3 +46,8 @@ void tampilkanPrima() {
         cout << "Hasil: " << angka << "BUKAN bilangan prima." << endl;
     }
 }
+
+// Prosedur untuk menampilkan hasil pengecekan Fibonacci
+void tampilkanFibonacci() {
+    
+}
