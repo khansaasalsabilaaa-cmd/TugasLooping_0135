@@ -15,3 +15,5 @@ bool isPrima(int n) {
     }
     return true;
 }
+
+// Fungsi untuk mengecek apakah n ada dalam deret Fibonacci menggunakan while loop
