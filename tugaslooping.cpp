@@ -21,5 +21,9 @@ bool isFibonacci(int n) {
     if (n < 0) return false;
     int a = 0, b = 1;
     if (n == a || n == b) return true;
-    
+
+    int c = a + b;
+    while (c <= n) {
+        
+    }
 }
