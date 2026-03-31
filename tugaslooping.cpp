@@ -42,5 +42,7 @@ void inputAngka() {
 void tampilkanPrima() {
     if (isPrima(angka)) {
         cout << "Hasil: " << angka << "adalah bilangan PRIMA." << endl;
+    } else {
+        cout << "Hasil: " << angka << "BUKAN bilangan prima." << endl;
     }
 }
